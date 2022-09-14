@@ -1,0 +1,76 @@
+@font-face {
+  font-family: ProgrammingFont;
+  src: url("src/assets/AldoTheApache.ttf");
+}
+
+
+.MainContent {
+  width: 98%;
+  padding: 10px;
+  margin-top: 5vh;
+
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+
+}
+
+
+.Link:first-child
+{
+  margin-left: 7vw;
+}
+
+.ProgrammingThumbnail
+{
+  background-image: url("src/assets/ProgrammingThumbnail.png");
+  background-size: 15vw;
+  font-family: ProgrammingFont, Consolas;
+}
+
+.ProgrammingThumbnail:hover
+{
+  animation-name: ScrollYDown;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.GamesThumbnail
+{
+
+}
+
+.ArtThumbnail
+{
+
+}
+
+.StoriesThumbnail
+{
+
+}
+
+.ContactThumbnail
+{
+
+}
+
+.AboutThumbnail
+{
+
+}
+
+
+
+@keyframes ScrollYDown
+{
+  from
+  {
+    background-position-y: 0;
+  }
+  to
+  {
+    background-position-y: -100px;
+  }
+}
+

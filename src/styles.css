@@ -1,1 +1,64 @@
-/* You can add global styles to this file, and also import other style files */
+body
+{
+  font-size: 1vw;
+  font-family: Standard, Consolas;
+
+  background-image: url("assets/TurnipSticker.png"), linear-gradient(#EBE10C,#0CEB38);
+  background-repeat: no-repeat, repeat;
+  background-position: 105% 105%;
+  background-attachment: fixed;
+}
+
+.MainBanner {
+  width: 60vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+.ViewContent
+{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  width: 45vw;
+  height: 50vh;
+  margin: auto;
+  padding: 15px;
+}
+
+@font-face {
+  font-family: Standard;
+  src: url("assets/SmallMemory.ttf");
+}
+
+p
+{
+  text-indent: 30px;
+}
+
+.Link {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 8vw;
+  height: 10vh;
+
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgba(255, 255, 255, 1);
+  padding: 10px;
+
+  margin-right: 6vw;
+}
+
+.LinkTitle
+{
+  font-size: 1.5vw;
+  background: -webkit-linear-gradient(0deg, #5D0B94, #C6E022);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
