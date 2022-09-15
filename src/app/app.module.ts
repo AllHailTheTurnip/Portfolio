@@ -5,12 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProgrammingViewComponent } from './programming-view/programming-view.component';
 import { AboutViewComponent } from './about-view/about-view.component';
+import { VideoGamesComponent } from './video-games/video-games.component';
+import { ArtComponent } from './art/art.component';
+import { StoriesComponent } from './stories/stories.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProgrammingViewComponent,
-    AboutViewComponent
+    AboutViewComponent,
+    VideoGamesComponent,
+    ArtComponent,
+    StoriesComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,

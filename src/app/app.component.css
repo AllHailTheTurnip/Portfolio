@@ -21,11 +21,17 @@
   margin-left: 7vw;
 }
 
+.ThumbnailFont
+{
+  font-family: ProgrammingFont, Consolas, serif;
+}
+
 .ProgrammingThumbnail
 {
-  background-image: url("src/assets/ProgrammingThumbnail.png");
+  background-image: url("src/assets/Miracle2sml2.png");
   background-size: 15vw;
-  font-family: ProgrammingFont, Consolas;
+  background-position-x: -50px;
+  background-position-y: -275px;
 }
 
 .ProgrammingThumbnail:hover
@@ -35,42 +41,109 @@
   animation-fill-mode: forwards;
 }
 
-.GamesThumbnail
+.VideoGamesThumbnail
 {
+  background-image: url("src/assets/vertigoImg.png");
+  background-size: 30vw, 30vh;
+  background-position-x: -100px;
+}
 
+.VideoGamesThumbnail:hover
+{
+  animation-name: ScrollXDown;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
 .ArtThumbnail
 {
+  background-image: url("src/assets/Art/Graveyard.PNG");
+  background-size: 30vw, 30vh;
+  background-position-x: -100px;
+}
 
+.ArtThumbnail:hover
+{
+  animation-name: ScrollXDown;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
 .StoriesThumbnail
 {
+  background-image: url("src/assets/BunchOfBooks.webp");
+  background-size: 30vw, 30vh;
+  background-position-y: -275px;
+}
 
+.StoriesThumbnail:hover
+{
+  animation-name: ScrollYDown;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.AboutThumbnail {
+  background-image: url("src/assets/Thumbnail.jpg");
+  background-size: 10vw, 10vh;
+  background-position-y: 0px;
+}
+
+.AboutThumbnail:hover
+{
+  animation-name: Grow;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
 .ContactThumbnail
 {
-
+  background-image: url("src/assets/EmailStock.webp");
+  background-size: 10vw, 10vh;
+  background-position-y: -35px;
+  background-position-x: -5px;
 }
 
-.AboutThumbnail
+.ContactThumbnail:hover
 {
-
+  animation-name: Grow;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
 
+@keyframes Grow {
+  from
+  {
+    background-size: 10vw, 10vh;
+  }
+  to
+  {
+    background-size: 15vw, 15vh;
+  }
+}
 
 @keyframes ScrollYDown
 {
   from
   {
-    background-position-y: 0;
+    background-position-y: -275px;
   }
   to
   {
-    background-position-y: -100px;
+    background-position-y: -350px;
   }
 }
 
+
+@keyframes ScrollXDown
+{
+  from
+  {
+    background-position-x: -100px;
+  }
+  to
+  {
+    background-position-x: -200px;
+  }
+}

@@ -1,0 +1,53 @@
+.ArtTN {
+  width: 10vw;
+  height: 10vw;
+
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 5px;
+
+  border-color: white;
+
+  margin-bottom: 10px;
+
+  padding: 10px;
+
+  background-size: cover;
+
+  box-shadow: 0px 0px 0px 0px #000000;
+
+  animation-name: RaiseAndShadowOut;
+  animation-duration: 0.25s;
+  animation-fill-mode: backwards;
+}
+
+.ArtTN:hover {
+  animation-name: RaiseAndShadowIn;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes RaiseAndShadowIn {
+  from {
+    box-shadow: 0px 0px 0px 0px #000000;
+  }
+  to {
+    box-shadow: 5px 5px 10px 0px #000000;
+  }
+}
+
+@keyframes RaiseAndShadowOut {
+  from {
+    box-shadow: 5px 5px 10px 0px #000000;
+  }
+  to {
+    box-shadow: 0px 0px 0px 0px #000000;
+
+  }
+}
+
+.GridAlignment {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(7, 1fr);
+}
