@@ -1,12 +1,13 @@
 body
 {
-  font-size: 1vw;
   font-family: Standard, Consolas;
 
+  font-size: 2vh;
   background-image: url("assets/TurnipSticker.png"), linear-gradient(#EBE10C,#0CEB38);
   background-repeat: no-repeat, repeat;
   background-position: 105% 105%;
   background-attachment: fixed;
+  background-size: min(50vw, 500px) min(50vw, 500px), 100% 100%;
 }
 
 .MainBanner {
@@ -24,7 +25,7 @@ body
   border-style: solid;
   border-color: rgba(255, 255, 255, 1);
   border-radius: 10px;
-  width: 45vw;
+  width: max(45vw, 45vh);
   height: auto;
   margin: auto;
   padding: 15px;
@@ -42,8 +43,8 @@ p
 
 .Link {
   background-color: rgba(255, 255, 255, 0.5);
-  width: 8vw;
-  height: 10vh;
+  width: max(8vw, 10vh);
+  height: max(8vw, 10vh);
 
   border-radius: 10px;
   border-style: solid;
@@ -63,7 +64,7 @@ p
 }
 
 .DisplayItemTitle {
-  font-size: 1.5vw;
+  font-size: max(1.5vw, 2.5vh);
 }
 
 .DisplayItemBody

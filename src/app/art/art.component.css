@@ -1,6 +1,6 @@
 .ArtTN {
-  width: 10vw;
-  height: 10vw;
+  width: max(10vw, 15vh);
+  height: max(10vw, 15vh);
 
   border-style: solid;
   border-radius: 10px;
@@ -47,7 +47,7 @@
 }
 
 .GridAlignment {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(7, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vw;
 }

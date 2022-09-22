@@ -5,79 +5,70 @@
 
 
 .MainContent {
-  width: 98%;
+  width: 100%;
   padding: 10px;
   margin-top: 5vh;
 
-  display: grid;
-  grid-auto-flow: column;
-  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;;
 
 }
 
 
-.Link:first-child
-{
-  margin-left: 7vw;
+.Link:first-child {
+
 }
 
-.ThumbnailFont
-{
+.ThumbnailFont {
   font-family: ProgrammingFont, Consolas, serif;
 }
 
-.ProgrammingThumbnail
-{
+.ProgrammingThumbnail {
   background-image: url("src/assets/Miracle2sml2.png");
   background-size: 15vw;
   background-position-x: -50px;
   background-position-y: -275px;
 }
 
-.ProgrammingThumbnail:hover
-{
+.ProgrammingThumbnail:hover {
   animation-name: ScrollYDown;
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 
-.VideoGamesThumbnail
-{
+.VideoGamesThumbnail {
   background-image: url("src/assets/vertigoImg.png");
   background-size: 30vw, 30vh;
   background-position-x: -100px;
 }
 
-.VideoGamesThumbnail:hover
-{
+.VideoGamesThumbnail:hover {
   animation-name: ScrollXDown;
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 
-.ArtThumbnail
-{
+.ArtThumbnail {
   background-image: url("src/assets/Art/Graveyard.PNG");
   background-size: 30vw, 30vh;
   background-position-x: -100px;
 }
 
-.ArtThumbnail:hover
-{
+.ArtThumbnail:hover {
   animation-name: ScrollXDown;
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 
-.StoriesThumbnail
-{
+.StoriesThumbnail {
   background-image: url("src/assets/BunchOfBooks.webp");
   background-size: 30vw, 30vh;
   background-position-y: -275px;
 }
 
-.StoriesThumbnail:hover
-{
+.StoriesThumbnail:hover {
   animation-name: ScrollYDown;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -89,23 +80,20 @@
   background-position-y: 0px;
 }
 
-.AboutThumbnail:hover
-{
+.AboutThumbnail:hover {
   animation-name: Grow;
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 
-.ContactThumbnail
-{
+.ContactThumbnail {
   background-image: url("src/assets/EmailStock.webp");
   background-size: 10vw, 10vh;
   background-position-y: -35px;
   background-position-x: -5px;
 }
 
-.ContactThumbnail:hover
-{
+.ContactThumbnail:hover {
   animation-name: Grow;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -113,37 +101,29 @@
 
 
 @keyframes Grow {
-  from
-  {
+  from {
     background-size: 10vw, 10vh;
   }
-  to
-  {
+  to {
     background-size: 15vw, 15vh;
   }
 }
 
-@keyframes ScrollYDown
-{
-  from
-  {
+@keyframes ScrollYDown {
+  from {
     background-position-y: -275px;
   }
-  to
-  {
+  to {
     background-position-y: -350px;
   }
 }
 
 
-@keyframes ScrollXDown
-{
-  from
-  {
+@keyframes ScrollXDown {
+  from {
     background-position-x: -100px;
   }
-  to
-  {
+  to {
     background-position-x: -200px;
   }
 }
