@@ -6,14 +6,13 @@
 
 .MainContent {
   width: 100%;
-  padding: 10px;
+  padding: 50px;
   margin-top: 5vh;
 
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;;
-
+  gap: 10px;
+  justify-content: center;
 }
 
 
@@ -45,6 +44,18 @@
 }
 
 .VideoGamesThumbnail:hover {
+  animation-name: ScrollXDown;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.TechDemosThumbnail {
+  background-image: url("src/assets/IncoArtThumbnail.png");
+  background-size: 30vw, 30vh;
+  background-position-x: -100px;
+}
+
+.TechDemosThumbnail:hover {
   animation-name: ScrollXDown;
   animation-duration: 2s;
   animation-fill-mode: forwards;

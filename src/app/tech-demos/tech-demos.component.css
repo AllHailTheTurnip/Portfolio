@@ -1,0 +1,12 @@
+.TechVideoDisplay
+{
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+iframe
+{
+  padding-top: 25px;
+}

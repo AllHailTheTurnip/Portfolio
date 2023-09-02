@@ -9,6 +9,7 @@ import {VideoGamesComponent} from "./video-games/video-games.component";
 import {ArtComponent} from "./art/art.component";
 import {StoriesComponent} from "./stories/stories.component";
 import {ContactsComponent} from "./contacts/contacts.component";
+import {TechDemosComponent} from "./tech-demos/tech-demos.component";
 
 const routes: Routes =
   [
@@ -17,6 +18,7 @@ const routes: Routes =
     {path: 'Programming', component: ProgrammingViewComponent},
     {path: 'About', component: AboutViewComponent},
     {path: 'VideoGames', component: VideoGamesComponent},
+    {path: 'TechDemos', component: TechDemosComponent},
     {path: 'Art', component: ArtComponent},
     {path: 'Stories', component: StoriesComponent},
     {path: 'Contacts', component: ContactsComponent}
